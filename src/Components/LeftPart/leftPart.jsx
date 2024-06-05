@@ -1,6 +1,6 @@
 import React from 'react'
 import './leftpart.css'
-import leftImg from '../Assets/Windy day-rafiki.png'
+import leftImg from '../Assets/WindyDay.png'
 const leftPart = () => {
   return (
     <div className='left'>

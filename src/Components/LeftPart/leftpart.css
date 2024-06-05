@@ -1,15 +1,23 @@
 .left{
     display: flex;
     flex-direction: column;
-    background-color: #ebfffc;
     align-items: center;
     justify-content: center;
     height: 100%;
 }
 .left h1{
     font-size: 60px;
-    margin-top: 45px;
+    margin: 35px 0;
+    font-weight:700;
+    color: #ebfffc;
+}
+.left p{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: white;
 }
 .left img{
-    width: 450px;
+    width: 500px;
+
 }
