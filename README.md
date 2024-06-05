@@ -12,3 +12,4 @@ Discover the latest weather updates and forecasts in your city!
 - 🌬️ **Wind Speed**: Displays the current wind speed in kilometers per hour, offering insights into wind conditions.
 
 ## Output
+![output](https://github.com/Laayaa94/weatherapp/assets/160100195/59c11663-4b44-45fd-8392-9b09015762bf)
