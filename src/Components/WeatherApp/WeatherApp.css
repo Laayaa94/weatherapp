@@ -1,18 +1,13 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    height: 100vh;
-    background-color:#ebfffc;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
+
 .container{
     width:507px; 
+    padding: 40px;
+    place-self: center;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-image: linear-gradient(180deg,#130754 0%,#3b2f80 100%);
 }
 .topBar{
