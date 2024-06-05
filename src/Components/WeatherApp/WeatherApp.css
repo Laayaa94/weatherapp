@@ -1,7 +1,7 @@
 
 
 .container{
-    width:507px; 
+  
     padding: 40px;
     place-self: center;
     border-radius: 20px;
@@ -12,13 +12,12 @@
 }
 .topBar{
     display: flex;
-    justify-content: center;
-    gap:14px;
-    padding-top:60px ;
+    align-items: center;
+    gap:12px;
+    
 }
 .topBar input{
     display: flex;
-    width:362px;
     height: 50px;
     background: #ebfffc;
     border: none;
@@ -26,7 +25,7 @@
     border-radius:40px;
     padding-left: 40px;
     color: #626262;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;  
 }
 .searchIcon{
@@ -48,6 +47,9 @@
     margin-top: 29px;
     justify-content: center;
 }
+.weatherImg img{
+    width: 150px;
+}
 .weatherTemp{
     display: flex;
     justify-content: center;
@@ -63,24 +65,31 @@
     color: white;
 }
 .dataContainer{
-    
-    margin-top: 50px;
+    margin-top: 40px;
     color: white;
     display: flex;
-    justify-content: center;
+    width: 100%;
+    justify-content: space-between;
 }
 .element{
     margin: auto;
     display: flex;
     align-items: flex-start;
     gap: 12px;
+
 }
+.element img{
+    width: 26px;
+}
+
 .data{
-    font-size: 34px;
+    font-size: 16px;
     font-weight: 400;
+    display: block;
+    
 }
 .text{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     margin-bottom: 15px;
 }
