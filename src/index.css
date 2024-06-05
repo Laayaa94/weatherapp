@@ -3,8 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-.App{
+.AppContainer{
     min-height: 100vh;
-    display: grid;
     background-color:#b8bced;
+    display: flex;
+    flex-direction: row;
+
+}
+.App{
+    display: grid;
+    flex: 3;
+}
+.leftPart{
+    flex: 2;
 }

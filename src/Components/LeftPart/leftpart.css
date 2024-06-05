@@ -1,0 +1,15 @@
+.left{
+    display: flex;
+    flex-direction: column;
+    background-color: #ebfffc;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.left h1{
+    font-size: 60px;
+    margin-top: 45px;
+}
+.left img{
+    width: 450px;
+}
