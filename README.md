@@ -10,3 +10,5 @@ Discover the latest weather updates and forecasts in your city!
 - ☁️ **Weather Conditions**: Shows current weather conditions with illustrative icons (e.g., sunny, cloudy, rainy).
 - 💧 **Humidity Levels**: Provides the current humidity percentage, helping users understand the moisture level in the air.
 - 🌬️ **Wind Speed**: Displays the current wind speed in kilometers per hour, offering insights into wind conditions.
+
+## Output
