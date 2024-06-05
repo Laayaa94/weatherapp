@@ -1,8 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color:#ebfffc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .container{
-    width:607px;
-    height:829px;
-    margin: auto;
-    margin-top: 75px;
+    width:507px; 
     border-radius: 20px;
     background-image: linear-gradient(180deg,#130754 0%,#3b2f80 100%);
 }
@@ -15,7 +24,7 @@
 .topBar input{
     display: flex;
     width:362px;
-    height: 78px;
+    height: 50px;
     background: #ebfffc;
     border: none;
     outline: none;
@@ -29,15 +38,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width:78px;
-    height: 78px;
+    width:50px;
+    height: 50px;
     background: #ebfffc;
     border-radius: 40px;
     cursor: pointer;
     
 }
 .searchIcon img{
-    width:20px;
+    width:15px;
 }
 .weatherImg{
     display: flex;
@@ -47,14 +56,14 @@
 .weatherTemp{
     display: flex;
     justify-content: center;
-    font-size: 120px;
+    font-size: 80px;
     font-weight: 400;
     color: white;
 }
 .weatherLocation{
     display: flex;
     justify-content: center;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 400;
     color: white;
 }
@@ -78,6 +87,7 @@
 .text{
     font-size: 20px;
     font-weight: 400;
+    margin-bottom: 15px;
 }
 .icon{
     margin-top: 10px;
